@@ -1,0 +1,112 @@
+#nopage {
+    background-image: url("https://cdn.reformationfundraising.com/rffcom/ruinedwallbackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.title-container {
+    margin: auto auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.split .text h1 {
+    margin: 0;
+    font-family: "Omnes Black";
+    font-size: 10vw;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+.split .text h2 {
+    font-family: "Omnes Medium";
+    font-size: 3vw;
+    background-color: white;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 0 0 2vw 0;
+}
+
+.return-home {
+    color: white;
+    background-color: black;
+    width: 60%;
+    height: 5vw;
+    border-radius: 3vw;
+    margin: auto auto;
+}
+
+.text a {
+    color: white;
+    font-family: "Omnes Black";
+    font-size: 3vw;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-template-areas: 
+    "text image";
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
+}
+
+.text {
+    margin: auto auto;
+    text-align: center;
+    grid-area: "text"
+}
+
+.split img {
+    grid-area: "img";
+}
+
+#vertical {
+    display: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .split {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "image"
+        "text";
+        gap: 5vw;
+    }
+
+    .split .text h1 {
+        font-size: 17vw;
+    }
+
+    .split .text h2 {
+        font-size: 4vw;
+    }
+
+    .text a {
+        font-size: 5vw;
+    }
+
+    .return-home {
+        height: fit-content;
+    }
+
+    #horizontal {
+        display: none;
+    }
+
+    #vertical {
+        display: block;
+    }
+
+    body {
+        background-size: auto 200%;
+    }
+}

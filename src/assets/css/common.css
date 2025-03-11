@@ -1,0 +1,79 @@
+/**************** FONT FACES  ****************/
+
+@font-face {
+  font-family: "Omnes Light";
+  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Omnes Medium";
+  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Omnes Pro Bold";
+  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Pro\ Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Omnes Black";
+  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Black.ttf") format("opentype");
+}
+
+/****************  STYLE TAGS  ****************/
+
+svg { /* Unpsecified SVG Fonts will default to this */
+  font-family: "Omnes Pro Bold";
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Omnes Black";
+  font-size: 4vw;
+  margin: 0;
+}
+
+p {
+  font-family: "Omnes Medium";
+  margin: 0;
+  font-size: 2vw
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+a[href]:hover {
+  font-weight: bolder;
+}
+
+body {
+  margin: 0;
+}
+
+/****************  COMMON STYLING  ****************/
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  justify-self: flex-end;
+  color: white;
+  background-color: black;
+}
+
+.content {
+  flex-grow: 1;
+}
+

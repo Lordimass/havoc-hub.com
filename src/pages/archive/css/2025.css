@@ -1,0 +1,388 @@
+.stream-main-box-container {
+    background-image: url("https://cdn.reformationfundraising.com/rffcom/Collage.jpg");
+    background-size: cover;
+}
+
+#stream-main-box {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.chat-tab-button {
+    grid-area: chat-tab-button;
+    background-image: linear-gradient(white,rgb(206, 206, 206));
+}
+
+.info-tab-button {
+    grid-area: info-tab-button;
+    left: 10%;
+    background-color: white;
+    
+}
+
+.chat-tab-button, .info-tab-button {
+    position: relative;
+    width: 75%;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    text-align: center;
+    text-justify: center;
+    font-family: Omnes Pro;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.main-box {
+    display: grid;
+    grid-template-columns: 65% 16% 16%;
+    grid-template-rows: 1fr 10fr;
+    margin: 5%;
+    width: 90%;
+    height: max-content;
+    border-radius: 1vw;
+    grid-template-areas: 
+    ". info-tab-button chat-tab-button"
+    "stream-embed right-panel right-panel"; 
+}
+
+#schedule-main-box {
+    padding: 0;
+    grid-template-columns: 32% 67%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "schedule info";
+    background-color: white;
+}
+
+.schedule-container {
+    grid-area: schedule
+}
+
+.schedule-info-container {
+    grid-area: info;
+    background-image: linear-gradient(to right, rgb(206, 206, 206) 0%, white 2%);;
+}
+
+.schedule-info {
+    margin: 2vw;
+}
+
+.schedule-info i, .schedule-info p {
+    font-family: "Omnes Light";
+    font-size: 1.6vw;
+}
+
+#stonewall-box {
+    grid-template-columns: 67% 32%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "text image";
+    margin-bottom: 2%;
+}
+
+.stonewall-image-container {
+    grid-area: image;
+    height: 100%;
+    overflow: hidden;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+.stonewall-image-container img {
+    height: 100%;
+}
+
+.stonewall-info-box {
+    background-image: linear-gradient(to left, rgb(206, 206, 206) 0%, white 2%);
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+
+.stonewall-info-box p, .stonewall-info-box h1 {
+    margin: 1vw;
+}
+
+.stonewall-info-box div {
+    width: 97.5%;
+    margin: 1vw;
+}
+
+#stonewall-more {
+    width: 100%;
+}
+
+.title-2-container {
+    background-color: black;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+
+    /* Initial off screen position */
+    transform: translateX(+100%);
+
+    /* Animation Properties */
+    animation: fly-in 1s ease-in-out;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+
+@keyframes fly-in {
+    0% {
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.title-2-container h1 {
+    color: white;
+    padding-left: 1vw;
+}
+
+.stream-embed-container {
+    background-image: url("https://cdn.reformationfundraising.com/rffcom/2025theme.jpg");
+    margin: 0;
+    grid-area: stream-embed;
+    width: 100%;
+    height: 36.5625vw;
+    overflow: hidden;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+
+.info-tab, .chat-tab {
+    grid-area: right-panel;
+    background-color: white;
+    border-bottom-right-radius: 1vw;
+    border-top-right-radius: 1vw;
+    overflow: hidden;
+}
+
+.info-tab {
+    width: 29vw;
+    padding-left: 1vw;
+    background-image: linear-gradient(to right, rgb(206, 206, 206) 0%, white 5%);
+}
+
+.chat-tab {
+    width: 30vw;
+    display: none;
+}
+
+.chat-tab iframe {
+    position: relative;
+    left: -2px;
+    top: -2px;
+}
+
+.info-tab-text {
+    overflow: hidden;
+}
+
+#total-raised {
+    text-align: center;
+    font-size: 4vw;
+}
+
+.info-tab p {
+    font-size: 1.4vw;
+}
+
+#stream-embed {
+    height: 100%;
+}
+
+.info-tab p {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.donate-button, .more-button {
+    font-family: "Omnes Black";
+    width: max-content;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vw;
+    border-radius: 5vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.donate-button:hover, .more-button:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.donate-button {
+    width: 39%;
+}
+
+.more-button {
+    width: 59%;
+}
+
+@media screen and (max-width: 1100px) {
+    .main-box {
+        grid-template-columns: 1fr 12fr;
+        grid-template-rows: 36.5vw repeat(2, min-content);
+        height: max-content;
+        border-radius: 1vw;
+        overflow: hidden;
+        grid-template-areas: 
+        ". stream-embed"
+        "info-tab-button right-panel "
+        "chat-tab-button right-panel"; 
+    }
+
+    .donate-button {
+        margin-bottom: 3vw;
+    }
+
+    .info-tab, .chat-tab {
+        width: 100%;
+        grid-area: right-panel;
+        background-color: white;
+        border-bottom-right-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        border-top-right-radius: 0vw;
+        overflow: hidden;
+    }
+
+    #title-1 {
+        font-size: 7vw;
+        padding-left: 1vw;
+        text-align: center;
+    }
+
+    .info-tab-text p {
+        padding-left: 1vw;
+        font-size: 3.5vw;
+    }
+
+    .title-2-container {
+        transform: translateX(-100%);
+        border-radius: 1vw;
+        margin: auto auto;
+        text-align: center;
+
+        width: 70vw;
+    }
+
+    .title-2-container h1 {
+        font-size: 5vw;
+    }
+
+    .info-tab {
+        padding-left: 0;
+    }
+
+    .donate-button, .more-button {
+        width: 75%;
+        height: 10vw;
+    }
+
+    .info-tab-buttons a {
+        margin: 12.5%;
+    }
+
+    .stream-embed-container {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1vw;
+    }
+
+    .info-tab-button, .chat-tab-button {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1vw;
+        width: 100%;
+        height: 75%;
+    }
+
+    .info-tab-button p, .chat-tab-button p {
+        font-size: 4vw;
+    }
+
+    .info-tab-button div, .chat-tab-button div {
+        /* 
+        Trying to vertically align this inside the tabs, it's being difficult but
+        for some ungodly reason the line-height property here does what I need.
+        If you look at the size of the bounding box using inspect tool though its
+        an absolute abomination of nature. ¯\_(ツ)_/¯ It works
+        */
+        line-height: 33vw; 
+        transform: rotate(-90deg);
+    }
+
+    
+    .info-tab-button {
+        top: 10%;
+    }
+
+    .chat-tab-button {
+        background-image: linear-gradient(to right, white ,rgb(240, 240, 240));
+    }
+    
+    .more-button, .donate-button {
+        margin-top: 2vw;
+        font-size: 5vw;
+    }
+
+    .info-tab {
+        background-image: linear-gradient(rgb(206, 206, 206) 0%, white 5%);
+    }
+
+    #schedule-main-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content;
+        grid-template-areas: 
+        "schedule"
+        "info";
+    }
+
+    .schedule-info i, .schedule-info p {
+        font-size: 3vw;
+    }
+
+    .schedule-container img {
+        width: 65%;
+        justify-self: center;
+        display: flex;
+    }
+
+    .schedule-info-container {
+        background-image: linear-gradient(rgb(206, 206, 206) 0%, white 2%);
+    }
+
+    #total-raised {
+        font-size: 8vw;
+    }
+
+    #leaderboard {
+        font-size: 4vw;
+        margin: auto auto;
+    }
+
+    #stonewall-box {
+        grid-template-rows: 63vw min-content;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "image"
+        "text";
+    }
+
+    .stonewall-info-box {
+        background-image: linear-gradient(rgb(206, 206, 206) 0%, white 5%);
+        border-top-left-radius: 0;
+    }
+
+    .stonewall-image-container {
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 1vw;
+    }
+
+    .stonewall-info-box h1 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .stonewall-info-box p {
+        font-size: 3vw;
+    }
+}
