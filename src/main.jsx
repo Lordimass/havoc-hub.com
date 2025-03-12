@@ -20,7 +20,7 @@ export default function App() {
     ReactGA.initialize("G-WED19TWS98")
     ReactGA.send({hitType:"pageview", page:pathname, title:pathname});
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="members" element={<Members />} />
@@ -36,7 +36,6 @@ export default function App() {
         </BrowserRouter>
     );
 }
-
 
 const root = createRoot(document.getElementById('root'));
 root.render(<App />);

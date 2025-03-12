@@ -1,6 +1,6 @@
 {
   "name": "test-react",
-  "homepage": "https://reformationfundraising.com",
+  "homepage": "https://reformationfundraising.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "build-manifest": "node generate-asset-manifest.cjs",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run build-manifest",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
