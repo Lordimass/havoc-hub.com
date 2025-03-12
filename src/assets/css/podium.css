@@ -72,7 +72,7 @@
         font-size: 4vw;
     }
 
-    #leaderboard tr, #leaderboard ::-webkit-textfield-decoration-container {
+    #leaderboard tr, #leaderboard td {
         font-size: 4vw;
         margin: auto auto;
     }
