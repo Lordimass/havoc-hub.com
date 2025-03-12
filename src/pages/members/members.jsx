@@ -57,7 +57,7 @@ function Streamer({username}) {
     const socialsList = Object.keys(data.socials)
 
     return (
-        <div className="streamer">
+        <div className="streamer" id={username}>
             <img className='icon' src={data.icon}/>
             <a className="member-username" href={data.socials[socialsList[0]]}>{username.toUpperCase()}</a>
             <p className="member-name">{data.name} | {data.pronouns}</p>
