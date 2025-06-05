@@ -66,9 +66,9 @@ export const archiveData = {
         "theme" : "https://cdn.reformationfundraising.com/rffcom/2021theme.jpeg",
         "themeShift" : -20,
         "vods" : [
-            "https://www.youtube.com/watch?v=5QgxcR86fHY",
-            "https://www.youtube.com/watch?v=hM6wTaPzI-8",
-            "https://www.youtube.com/watch?v=lG-q0YFqbiE"
+            "https://www.youtube.com/embed/5QgxcR86fHY",
+            "https://www.youtube.com/embed/hM6wTaPzI-8",
+            "https://www.youtube.com/embed/lG-q0YFqbiE"
             ],
         "donations" : [ // Generated with https://www.seabreezecomputers.com/excel2array/
             [" £ 192.61 ", "Knightmare", "Fundraising and charitable work is extremely important and this seems like a great cause. Good luck with your stream. Don't forget to stay hydrated and stretch!"], 
@@ -101,11 +101,11 @@ export const archiveData = {
         "theme" : "https://cdn.reformationfundraising.com/rffcom/2022theme.gif",
         "themeShift" : -20,
         "vods" : [
-            "https://www.youtube.com/watch?v=659o7JL-GyA",
-            "https://www.youtube.com/watch?v=qgsdaHQdjO8",
-            "https://www.youtube.com/watch?v=Zg6AtMSZjmU",
-            "https://www.youtube.com/watch?v=Lus7n0mJzow",
-            "https://www.youtube.com/watch?v=ZGrV-PMe6Ck",
+            "https://www.youtube.com/embed/659o7JL-GyA",
+            "https://www.youtube.com/embed/qgsdaHQdjO8",
+            "https://www.youtube.com/embed/Zg6AtMSZjmU",
+            "https://www.youtube.com/embed/Lus7n0mJzow",
+            "https://www.youtube.com/embed/ZGrV-PMe6Ck",
         ],
         "donations" : [ // Generated with https://www.seabreezecomputers.com/excel2array/
             [" £ 5.00 ", "JustasCrazy", "Let's get this party started"], 
@@ -163,10 +163,10 @@ export const archiveData = {
         "theme" : "https://cdn.reformationfundraising.com/rffcom/2023theme.jpeg",
         "themeShift" : -20,
         "vods" : [
-            "https://www.youtube.com/watch?v=W0rqOU50vRg",
-            "https://www.youtube.com/watch?v=Z7fj-cYn0xs",
-            "https://www.youtube.com/watch?v=HQdBvdi9Mbc",
-            "https://www.youtube.com/watch?v=G_0zEyj4CKY",
+            "https://www.youtube.com/embed/W0rqOU50vRg",
+            "https://www.youtube.com/embed/Z7fj-cYn0xs",
+            "https://www.youtube.com/embed/HQdBvdi9Mbc",
+            "https://www.youtube.com/embed/G_0zEyj4CKY",
         ],
         "donations" : [ // Generated with https://www.seabreezecomputers.com/excel2array/
             [" £ 25.00 ", "Magnus"], 
@@ -226,8 +226,8 @@ export const archiveData = {
         "themeShift" : -3,
         "blackText" : true,
         "vods" : [
-            "https://www.youtube.com/watch?v=yW96CiQO1sc",
-            "https://www.youtube.com/watch?v=GNfnPxInwtI",
+            "https://www.youtube.com/embed/yW96CiQO1sc",
+            "https://www.youtube.com/embed/GNfnPxInwtI",
         ],
         "donations" : [ // Generated with https://www.seabreezecomputers.com/excel2array/
             [" £ 5.00 ", "Tchrin", "First!"], 
@@ -319,8 +319,11 @@ export const archiveData = {
         "theme" : "https://cdn.reformationfundraising.com/rffcom/2025theme.jpg",
         "themeShift" : -3,
         "vods" : [
-            "https://www.youtube.com/watch?v=WeU-b4ZMnmI",
-            "https://www.youtube.com/watch?v=YZDfiLieKa8",
+            // Note to 2026 Lordi:
+            // These must be *embed* links, not watch links, see here:
+            // https://stackoverflow.com/questions/25661182/embed-youtube-video-refused-to-display-in-a-frame-because-it-set-x-frame-opti
+            "https://www.youtube.com/embed/WeU-b4ZMnmI",
+            "https://www.youtube.com/embed/YZDfiLieKa8",
         ],
         "donations" : [ // Generated with https://www.seabreezecomputers.com/excel2array/
             [" £ 1.00 ", "Tchrin", "First"], 
