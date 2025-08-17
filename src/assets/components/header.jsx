@@ -5,7 +5,7 @@ export default function Header() {
         <div className="header">
             <a className="logo" href="/">
                 <img src="https://cdn.reformationfundraising.com/rffcom/logosmol.png"/>
-                <h1>REFORMATION FUNDRAISING</h1>
+                <h1>HAVOC FUNDRAISING</h1>
             </a>
   
             

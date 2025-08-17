@@ -8,10 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "build-manifest": "node generate-asset-manifest.cjs",
-    "preview": "vite preview",
-    "predeploy": "npm run build && npm run build-manifest",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "netlify": "^13.3.5",

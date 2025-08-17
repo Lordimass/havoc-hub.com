@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
         <Header /> <div className="content" style={{backgroundImage: "url('https://cdn.reformationfundraising.com/rffcom/collage2.jpg')"}}>
-        <div className='homeTitle'><h1>REFORMATION FUNDRAISING</h1></div>
+        <div className='homeTitle'><h1>HAVOC FUNDRAISING</h1></div>
 
         <div id="intro-box">
             <p>Hi! We are a group of friends who host a yearly 24hr Charity Livestream to raise money for the areas of the world and groups of people who need it the most. We hope to make a difference in the world, even if only a little bit.</p>
