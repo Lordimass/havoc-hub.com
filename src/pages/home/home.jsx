@@ -17,7 +17,7 @@ export default function Home() {
             </p>
         </div>
 
-        <Leaderboard />
+        {/* <Leaderboard /> */}
 
         </div><Footer /> 
         </>
