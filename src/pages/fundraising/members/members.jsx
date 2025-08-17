@@ -1,6 +1,6 @@
-import Header from '../../assets/components/header.jsx'
-import Footer from '../../assets/components/footer.jsx'
-import CurveSubheader from '../../assets/components/curveSubheader.jsx'
+import Header from '../../../assets/components/header.jsx'
+import Footer from '../../../assets/components/footer.jsx'
+import CurveSubheader from '../../../assets/components/curveSubheader.jsx'
 
 import "./members.css"
 
@@ -10,8 +10,6 @@ import { extraMembers } from "./extraMembers.js"
 import { specialThanks } from "./specialThanks.js"
 
 export default function Members() {
-
-
     return (
         <> <Header /> <div className="content">
         
@@ -42,7 +40,6 @@ export default function Members() {
 
 function Streamers() {
     const members = Object.keys(membersData);
-
     return (
         <div className='streamers'>
             {members.map((member, index) =>(
