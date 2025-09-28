@@ -1,7 +1,7 @@
 import "./css/archive.css"
-import { archiveData } from "./archiveData"
+import { archiveData, Years } from "./archiveData"
 
-export function TitleBox({year}) {
+export function TitleBox({year}: {year: any}) {
     let textColor = "white"
     if (year["blackText"]) {
         textColor = "black"
@@ -23,10 +23,10 @@ export function TitleBox({year}) {
     )
 }
 
-export function DonationLog({year}) {
-    const data = archiveData[year]["donations"]
+export function DonationLog({year}: {year: keyof Years}) {
+    const data = archiveData[year].donations
     var key = 0
-    const donations = data.map((user) => {
+    const donations = data.map((user: any) => {
         key++
         return (
             <tr key={key}>
@@ -51,10 +51,10 @@ export function DonationLog({year}) {
     </>)
 }
 
-export function VODs({year}) {
+export function VODs({year}: {year: keyof Years}) {
     const data = archiveData[year].vods
     var num = 0
-    const vods = data.map((url) => {
+    const vods = data.map((url: string) => {
         num++
         return (
             <VOD key={num} url={url} num={num}/>
@@ -68,7 +68,7 @@ export function VODs({year}) {
     );
 }
 
-function VOD({url, num}) {
+function VOD({url, num}: {url: string, num: number}) {
     return (
         <div className="vod-container">
             <h1>{"Part "+num}</h1>

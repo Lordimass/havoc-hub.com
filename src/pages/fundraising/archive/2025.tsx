@@ -3,11 +3,10 @@ import { archiveData } from "./archiveData"
 import Header from "../../../assets/components/header"
 import Footer from "../../../assets/components/footer"
 import "./css/2025.css"
-import "../../../assets/js/donation-quants"
 import { Leaderboard2025 } from "../../../assets/components/podium"
 
 export default function Year2025() {
-    const year = 2025
+    const year = "2025"
     return (<> <Header /> <div className="content">
     
     <TitleBox year={archiveData[year]}/>

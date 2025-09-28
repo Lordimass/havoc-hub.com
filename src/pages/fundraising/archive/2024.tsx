@@ -5,7 +5,7 @@ import Footer from "../../../assets/components/footer"
 import "./css/2024.css"
 
 export default function Year2024() {
-    const year = 2024
+    const year = "2024"
     return (<> <Header /> <div className="content">
     
     <TitleBox year={archiveData[year]}/>
@@ -39,12 +39,12 @@ export default function Year2024() {
     <div className="headline-events">
         <h1 style={{textAlign: "center", fontSize: "6vw"}}>Headline Events</h1>
         <div className="events-split">
-            <img src="https://cdn.reformationfundraising.com/rffcom/2024/Schedule.svg" class="schedule" style={{height: "100%"}}/>
+            <img src="https://cdn.reformationfundraising.com/rffcom/2024/Schedule.svg" className="schedule" style={{height: "100%"}}/>
             <div className="schedule-text">
             <p>
                 <i>These are just the headline events for the stream, in between each of these we'll be playing other games too! All times are in GMT+0, starting from 11th February 2024</i>
                 <br/><br/>
-                At <b>5:40am</b> we will begin the <b>20 minute countdown</b> to the beginning of the event, during this time you can find which streamer you want to watch from the <a href="reformationfundraising.com/members">members page</a> and get ready to watch.
+                At <b>5:40am</b> we will begin the <b>20 minute countdown</b> to the beginning of the event, during this time you can find which streamer you want to watch from the <a href="/fundraising/members">members page</a> and get ready to watch.
                 <br/><br/>
                 The stream begins at <b>6:00am</b> with the launch of a brand new Minecraft server. This is just the launch and we'll play on it throughout the server, so don't worry if you can't catch the launch, plus, there's always the VOD!
                 <br/><br/>
@@ -105,7 +105,7 @@ export default function Year2024() {
 
 
             </p>
-            <div class="charity-buttons">
+            <div className="charity-buttons">
                 <a href="https://msf.org" target="_blank"><button>LEARN MORE</button></a>
                 <a href="https://www.gofundme.com/f/24hr-stream-2024-reformation-fundraising" target="_blank"><button>DONATE</button></a>
             </div>

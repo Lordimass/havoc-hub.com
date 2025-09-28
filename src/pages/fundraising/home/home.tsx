@@ -1,6 +1,5 @@
-import Header from '../../../assets/components/header.jsx'
-import Footer from '../../../assets/components/footer.jsx'
-import {Leaderboard} from "../../../assets/components/podium.jsx"
+import Header from '../../../assets/components/header'
+import Footer from '../../../assets/components/footer'
 
 import "./home.css"
 

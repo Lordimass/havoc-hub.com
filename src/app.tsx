@@ -3,17 +3,17 @@ import ReactGA from "react-ga4"
 
 import './assets/css/common.css'
 
-import Home from "./pages/main/home.jsx";
+import Home from "./pages/main/home.js";
 
-import { Home as FundraisingHome } from "./pages/fundraising/home/home.jsx"
-import Members from "./pages/fundraising/members/members.jsx"
-import Archive from './pages/fundraising/archive/archive.jsx';
-import Year2020 from './pages/fundraising/archive/2020.jsx';
-import Year2021 from './pages/fundraising/archive/2021.jsx';
-import Year2022 from './pages/fundraising/archive/2022.jsx';
-import Year2023 from './pages/fundraising/archive/2023.jsx';
-import Year2024 from './pages/fundraising/archive/2024.jsx';
-import Year2025 from './pages/fundraising/archive/2025.jsx';
+import { Home as FundraisingHome } from "./pages/fundraising/home/home.js"
+import Members from "./pages/fundraising/members/members.js"
+import Archive from './pages/fundraising/archive/archive.js';
+import Year2020 from './pages/fundraising/archive/2020.js';
+import Year2021 from './pages/fundraising/archive/2021.js';
+import Year2022 from './pages/fundraising/archive/2022.js';
+import Year2023 from './pages/fundraising/archive/2023.js';
+import Year2024 from './pages/fundraising/archive/2024.js';
+import Year2025 from './pages/fundraising/archive/2025.js';
 import NoPage from './pages/404.jsx';
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
     ReactGA.initialize("G-WED19TWS98")
     ReactGA.send({hitType:"pageview", page:pathname, title:pathname});
     return (
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="fundraising" element={<FundraisingHome />} />

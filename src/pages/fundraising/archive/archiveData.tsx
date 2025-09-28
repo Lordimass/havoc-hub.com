@@ -1,4 +1,13 @@
-export const archiveData = {
+export type Years = {
+    "2020" : any
+    "2021" : any
+    "2022" : any
+    "2023" : any
+    "2024" : any
+    "2025" : any
+}
+
+export const archiveData: Years = {
     "2020" : {
         "title" : "19hr Stream 2020",
         "charity" : "British Red Cross: Operation Covid-19",

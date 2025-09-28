@@ -6,11 +6,13 @@ import App from './app';
  * of the site in the future, which is very likely, so I'm leaving this note in
  * the most obvious place I can think of :)
  * 
- * To deploy, simply run `npm run deploy` in the root directory of the repo,
- * everything else is automatic and Github should publish the site within ~1min 
+ * To run development server, run `netlify dev` in the root of the project
+ * To publish new versions of the site, go to the Netlify dashboard.
  */
 
 import { createRoot } from 'react-dom/client'
 
-const root = createRoot(document.getElementById('root'));
+const rootElement = document.getElementById('root')
+if (!rootElement) {throw "No root found!"}
+const root = createRoot(rootElement);
 root.render(<App />);
