@@ -1,4 +1,3 @@
-import "../css/common.css"
 import "../css/podium.css"
 
 

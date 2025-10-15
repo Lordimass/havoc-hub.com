@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4"
 
-import './assets/css/common.css'
+import './common.css'
 
-import Home from "./pages/main/home.js";
+import Home from "./pages/home/home.js";
 
 import { Home as FundraisingHome } from "./pages/fundraising/home/home.js"
 import Members from "./pages/fundraising/members/members.js"

@@ -20,6 +20,15 @@
   src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Black.ttf") format("opentype");
 }
 
+/****************  COLOURS  ****************/
+
+#root {
+  --darkPrimary: #822143;
+  --mediumPrimary: #ac3082;
+  --lightPrimary: #e461b8;
+  --whitePrimary: #FFF0C4;
+}
+
 /****************  STYLE TAGS  ****************/
 
 svg { /* Unpsecified SVG Fonts will default to this */
@@ -74,6 +83,9 @@ body {
 }
 
 .content {
+  background-color: var(--darkPrimary);
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
