@@ -16,6 +16,12 @@ export default function Home() {
                         `}
                     />
                 </div>
+                <h1>Under Construction!</h1>
+                <p style={{ textAlign: "center" }}>
+                    This website is still under construction! Check
+                    out <a href={"https://reformationfundraising.com"}>reformationfundraising.com</a> in the
+                    mean time :D
+                </p>
             </div>
         </div>
     );

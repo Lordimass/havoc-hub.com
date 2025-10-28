@@ -53,10 +53,12 @@ p {
 
 a[href] {
     text-decoration: none;
+    color: inherit;
+    font-weight: bold;
 }
 
 a[href]:hover {
-    font-weight: bolder;
+    text-decoration: underline;
 }
 
 body {
