@@ -1,91 +1,97 @@
 /**************** FONT FACES  ****************/
 
 @font-face {
-  font-family: "Omnes Light";
-  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Light.ttf") format("opentype");
+    font-family: "Omnes Light";
+    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Light.ttf") format("opentype");
 }
 
 @font-face {
-  font-family: "Omnes Medium";
-  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Medium.ttf") format("opentype");
+    font-family: "Omnes Medium";
+    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Medium.ttf") format("opentype");
 }
 
 @font-face {
-  font-family: "Omnes Pro Bold";
-  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Pro\ Bold.otf") format("opentype");
+    font-family: "Omnes Pro Bold";
+    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Pro\ Bold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "Omnes Black";
-  src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Black.ttf") format("opentype");
+    font-family: "Omnes Black";
+    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Black.ttf") format("opentype");
 }
 
 /****************  COLOURS  ****************/
 
 #root {
-  --darkPrimary: #822143;
-  --mediumPrimary: #ac3082;
-  --lightPrimary: #e461b8;
-  --whitePrimary: #FFF0C4;
+    --darkPrimary: #822143;
+    --mediumPrimary: #ac3082;
+    --lightPrimary: #e461b8;
+    --whitePrimary: #FFF0C4;
 }
 
 /****************  STYLE TAGS  ****************/
 
 svg { /* Unspecified SVG Fonts will default to this */
-  font-family: "Omnes Pro Bold", sans-serif;
+    font-family: "Omnes Pro Bold", sans-serif;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 h1 {
-  font-family: "Omnes Black", sans-serif;
-  font-size: 4vw;
-  margin: 0;
+    font-family: "Omnes Black", sans-serif;
+    font-size: 4vw;
+    margin: 0;
 }
 
 p {
     font-family: "Omnes Medium", sans-serif;
-  margin: 0;
-  font-size: 2vw
+    margin: 0;
+    font-size: 2vw
 }
 
 a[href] {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a[href]:hover {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /****************  COMMON STYLING  ****************/
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 #root {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer {
-  justify-self: flex-end;
-  color: white;
-  background-color: black;
+    justify-self: flex-end;
+    color: white;
+    background-color: black;
+}
+
+#root {
+    background-color: var(--darkPrimary);
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/collage.jpg");
 }
 
 .content {
-  background-color: var(--darkPrimary);
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
+    background-image: radial-gradient(black 1px, rgba(130, 33, 67, 0.4) 0);
+    background-size: 4px 4px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 

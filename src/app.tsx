@@ -17,7 +17,7 @@ import Year2025 from './pages/fundraising/archive/2025.js';
 import NoPage from './pages/404.jsx';
 
 export default function App() {
-    var pathname = window.location.pathname
+    let pathname = window.location.pathname
     ReactGA.initialize("G-WED19TWS98")
     ReactGA.send({hitType:"pageview", page:pathname, title:pathname});
     return (
