@@ -28,7 +28,7 @@
 }
 
 #home-page-logo img {
-    transition: transform 0.3s;
+    transition: transform 0.2s ease-out;
 }
 
 @media screen and (max-width: 1100px) {
@@ -43,7 +43,7 @@
 }
 
 #home-page-logo img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1100px) {
