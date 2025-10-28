@@ -1,6 +1,6 @@
-import "../assets/css/404.css"
-import Header from "../assets/components/header"
-import Footer from "../assets/components/footer"
+import "./404.css"
+import Header from "../../components/headerFooter/header.tsx"
+import Footer from "../../components/headerFooter/footer.tsx"
 
 export default function NoPage() {
     return (
@@ -20,7 +20,7 @@ export default function NoPage() {
         <img src="https://cdn.reformationfundraising.com/rffcom/404.png" style={{width: "50%", margin: "auto auto"}} id="vertical" />
 
             
-            <a href="/"><div className="return-home">Return Home</div></a>
+            <a href="/public"><div className="return-home">Return Home</div></a>
         </div>
         <img src="https://cdn.reformationfundraising.com/rffcom/404.png" style={{width: "100%"}} id="horizontal" />
         </div>

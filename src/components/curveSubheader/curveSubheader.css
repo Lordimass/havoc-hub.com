@@ -2,20 +2,20 @@
     height: 5vh;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    background-color: black;
+    background-color: var(--black);
 }
 
 .subheader {
     display: flex;
-    background-color: black;
+    background-color: var(--black);
     color: white;
-    font-family: "Omnes Black";
+    font-family: "Omnes Black", sans-serif;
     font-size: 2.5vw;
     justify-content: center;
 }
 
 .subheader h1 {
+    color: white;
     text-align: center;
-    text-justify: center;
     margin: 3vh;
 }

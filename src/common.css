@@ -23,10 +23,11 @@
 /****************  COLOURS  ****************/
 
 #root {
+    --black: #1f182e;
     --darkPrimary: #822143;
     --mediumPrimary: #ac3082;
     --lightPrimary: #e461b8;
-    --whitePrimary: #FFF0C4;
+    --whitePrimary: #fbf6e5;
 }
 
 /****************  STYLE TAGS  ****************/
@@ -41,14 +42,17 @@ body {
 
 h1 {
     font-family: "Omnes Black", sans-serif;
-    font-size: 4vw;
+    font-size: 75px;
     margin: 0;
+    color: var(--black);
 }
 
 p {
     font-family: "Omnes Medium", sans-serif;
     margin: 0;
-    font-size: 2vw
+    font-weight: 1000;
+    font-size: 22px;
+    color: var(--black);
 }
 
 a[href] {
@@ -65,11 +69,14 @@ body {
     margin: 0;
 }
 
-/****************  COMMON STYLING  ****************/
-
-body {
-    margin: 0;
+text {
+    font-family: "Omnes Medium", sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    display: none;
 }
+
+/****************  COMMON STYLING  ****************/
 
 #root {
     display: flex;
@@ -78,22 +85,25 @@ body {
     justify-content: space-between;
 }
 
-.footer {
-    justify-self: flex-end;
-    color: white;
-    background-color: black;
-}
-
 #root {
     background-color: var(--darkPrimary);
     background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/collage.jpg");
 }
 
 .content {
-    background-image: radial-gradient(black 1px, rgba(130, 33, 67, 0.4) 0);
-    background-size: 4px 4px;
+    background-image: radial-gradient(var(--black) 1px, rgba(130, 33, 67, 0.4) 0);
+    background-size: 6px 6px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
+/****************  STYLE SHORTCUTS  ****************/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}

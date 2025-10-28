@@ -26,6 +26,12 @@
     width: min-content;
 }
 
+.donation-log {
+    background-color: var(--whitePrimary);
+    margin: 10px;
+    border-radius: 10px;
+}
+
 .donationArchive td, .donationArchive th {
     font-family: "Omnes Medium";
     line-height: 1.5;
@@ -98,23 +104,20 @@ a {
   
 .Quantity { 
     grid-area: Quantity;
-    font-family: "Omnes Pro Bold"; 
+    font-family: "Omnes Pro Bold", sans-serif;
     line-height: 4vw;
 }
 
 .subtext {
-    color: white;
-    background-color: black;
+    background-color: var(--black);
 }
 
 .subtext p {
+    color: white;
     font-size: 1.4vw;
-    padding: 2vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    padding-bottom: 4vw;
+    padding: 2vw 8vw 4vw;
     margin: 0;
-    font-family: "Omnes Medium";
+    font-family: "Omnes Medium", sans-serif;
 }
 
 @media screen and (max-width: 1100px) {

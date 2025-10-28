@@ -1,72 +1,75 @@
 .extra-members {
-  display: grid;
-  width: 75%;
-  justify-self: center;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center; 
-  align-content: center; 
-  justify-items: center; 
-  align-items: center; 
-  gap: 0vw 4vw;
-  margin: 4vh;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
 }
 
 .extra-member {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 1vw;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--whitePrimary);
+    margin: 5px;
+    border-radius: 10px;
 }
 
 .extra-member h1 {
-  font-family: "Omnes Black";
-  margin: 0;
+    font-family: "Omnes Black", sans-serif;
+    color: var(--black);
+    margin: 0;
 }
 
 .extra-member h1 a {
-  font-size: 3.2vw;
-  text-decoration: none;
-  color: black;
+    font-size: 3.2vw;
+    color: var(--black);
+    text-decoration: none;
 }
 
 .extra-member p {
-  margin: 0;
-  font-family: "Omnes Medium";
-  font-size: 1.8vw;
+    margin: 0;
+    font-family: "Omnes Medium", sans-serif;
+    font-size: 1.8vw;
 }
 
 .streamers {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: center; 
-    align-content: center; 
-    justify-items: center; 
-    align-items: center; 
-    gap: 5vw 2vw;
-    margin: 4vh;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
 }
 
 .streamer {
-    display: grid; 
-    grid-template-columns: 10vw 30vw; 
-    grid-template-rows: 0fr 0fr 0fr; 
+    background-color: var(--whitePrimary);
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 10vw 30vw;
+    grid-template-rows: 0fr 0fr 0fr;
     grid-template-areas: 
       "icon username"
       "icon name"
-      "icon socials"; 
-    justify-content: center; 
-    align-content: center; 
-    justify-items: center; 
-    align-items: center; 
+      "icon socials";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .streamer:nth-child(even) {
     grid-template-areas: 
       "username icon"
       "name icon"
-      "socials icon"; 
+      "socials icon";
 
-    grid-template-columns: 30vw 10vw; 
+    grid-template-columns: 30vw 10vw;
     justify-self: right;
 }
 
@@ -81,7 +84,6 @@
     font-size: 2.8vw;
     margin: 0;
     line-height: 3vh;
-    color: black;
     text-decoration: none;
 }
 
@@ -105,35 +107,31 @@
 #title-content-container img {
     width: 100%;
 }
-  
-  .extra-member {
+
+.extra-member {
     padding: 1vw;
-  }
-  
+}
+
 .extra-member h1 {
-  font-size: 3vw;
+    font-size: 3vw;
 }
 
 .subtitle {
-  background-color: black;
+    background-color: var(--black);
 }
 
 .subtitle h1 {
-  width: fit-content;
-  margin: auto auto;
-  padding: 2vw;
-  font-size: 5vw;
-  color: white;
-}
-
-#title-container {
-  margin-bottom: 3vh;
+    width: fit-content;
+    margin: auto auto;
+    padding: 2vw;
+    font-size: 5vw;
+    color: white;
 }
 
 #title-box {
-  padding-top: 3vh;
-  background-color: black;
-  width: 100%;
+    padding-top: 3vh;
+    background-color: var(--black);
+    width: 100%;
 }
 
 #title-content-container {
@@ -149,123 +147,127 @@
     width: 60%;
     margin: auto auto;
     text-align: center;
-  }
-  
-.Logo-2 { grid-area: Logo-2; }
-  
-.Logo-1 { grid-area: Logo-1; }
-  
-.Streamers-Title { 
-    background-color: black;
+}
+
+.Logo-2 {
+    grid-area: Logo-2;
+}
+
+.Logo-1 {
+    grid-area: Logo-1;
+}
+
+.Streamers-Title {
     grid-area: Streamers-Title;
     margin: 0;
     align-self: center;
 }
 
 .Streamers-Title h1 {
-  font-size: 6vw;
-  font-family: "Omnes Pro Bold";
-  margin: 0;
-  color: white;
-}
-  
-.subtitle-container {
-  margin-top: 5vw;
+    font-size: 6vw;
+    font-family: "Omnes Pro Bold";
+    margin: 0;
+    color: white;
 }
 
-.Streamers-Subtitle { 
+.subtitle-container {
+    margin-top: 5vw;
+}
+
+.Streamers-Subtitle {
     grid-area: Streamers-Subtitle;
 }
 
 .Streamers-Subtitle p {
-  font-family: "Omnes Medium";
-  font-size: 1.35vw;
-  margin: 0;
-  color: white;
+    font-family: "Omnes Medium";
+    font-size: 1.35vw;
+    margin: 0;
+    color: white;
 }
 
 .info3 .username,
 .info6 .username {
-  font-size: 2.5vw;
+    font-size: 2.5vw;
 }
 
 .extra-member .small-member {
-  font-size: 2.7vw;
+    font-size: 2.7vw;
 }
 
 @media screen and (max-width: 1100px) {
-  .streamer:nth-child(even) {
-    grid-template-areas: 
+    .streamer:nth-child(even) {
+        grid-template-areas:
       "icon username"
       "icon name"
       "icon socials";
-    justify-self: center;
-  }
-  .streamers .streamer {
-    grid-template-columns: 20% 80%; 
-    width: 90%;
-  }
-  .icon {
-    height: 100%;
-  }
+        justify-self: center;
+    }
 
-  .extra-members {
-    grid-template-columns: 1fr;
-    width: 80%;
-  }
+    .streamers .streamer {
+        grid-template-columns: 20% 80%;
+        width: 90%;
+    }
 
-  .extra-members h1, .extra-members h1 a {
-    font-size: 7vw;
-  }
+    .icon {
+        height: 100%;
+    }
 
-  .extra-members p {
-    font-size: 3vw;
-  }
+    .extra-members {
+        grid-template-columns: 1fr;
+    }
 
-  #title-content-container {
-    width: 90%;
-    grid-template-columns: 1fr 6fr 1fr;
-    grid-template-areas: "Logo-1 Streamers-Title Logo-2";
-  }
+    .extra-members h1, .extra-members h1 a {
+        font-size: 7vw;
+    }
 
-  .Streamers-Subtitle {
-    display: none;
-  }
+    .extra-members p {
+        font-size: 3vw;
+    }
 
-  .Streamers-Title h1, .subtitle h1 {
-    font-size: 9vw;
-  }
+    #title-content-container {
+        width: 90%;
+        grid-template-columns: 1fr 6fr 1fr;
+        grid-template-areas: "Logo-1 Streamers-Title Logo-2";
+    }
 
-  .streamers {
-    grid-template-columns: 1fr;
-  }
+    .Streamers-Subtitle {
+        display: none;
+    }
 
-  .member-username {
-    font-size: 5vw;
-  }
-  
-  #OtherworldlyFinn .member-username {
-    font-size: 4.5vw;
-  }
+    .Streamers-Title h1, .subtitle h1 {
+        font-size: 9vw;
+    }
 
-  .member-name {
-    font-size: 4vw;
-  }
+    .streamers {
+        grid-template-columns: 1fr;
+    }
 
-  .socials a img {
-    width: 5vw;
-  }
+    .member-username {
+        font-size: 5vw;
+    }
 
-  .subtitle {
-    text-align: center;
-  }
+    #OtherworldlyFinn .member-username {
+        font-size: 4.5vw;
+    }
 
-  .extra-member .small-member {
-    font-size: 7vw;
-  }
+    .member-name {
+        font-size: 4vw;
+    }
 
-  .subheader h1 {
-    font-size: 8vw;
-    margin: 4vw;
-  }
+    .socials a img {
+        width: 5vw;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .extra-member .small-member {
+        font-size: 7vw;
+    }
+
+    .subheader h1 {
+        font-size: 8vw;
+        margin: 4vw;
+    }
 }

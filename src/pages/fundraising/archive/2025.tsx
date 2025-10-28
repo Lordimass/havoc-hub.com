@@ -1,9 +1,9 @@
 import { TitleBox, DonationLog, VODs } from "./archiveCommon"
 import { archiveData } from "./archiveData"
-import Header from "../../../assets/components/header"
-import Footer from "../../../assets/components/footer"
+import Header from "../../../components/headerFooter/header"
+import Footer from "../../../components/headerFooter/footer"
 import "./css/2025.css"
-import { Leaderboard2025 } from "../../../assets/components/podium"
+import { Leaderboard2025 } from "../../../components/podium/podium"
 
 export default function Year2025() {
     const year = "2025"

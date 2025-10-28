@@ -1,4 +1,4 @@
-import "../css/podium.css"
+import "./podium.css"
 
 
 export function Leaderboard() {

@@ -5,7 +5,6 @@ import './common.css'
 
 import Home from "./pages/home/home.js";
 
-import { Home as FundraisingHome } from "./pages/fundraising/home/home.js"
 import Members from "./pages/fundraising/members/members.js"
 import Archive from './pages/fundraising/archive/archive.js';
 import Year2020 from './pages/fundraising/archive/2020.js';
@@ -14,7 +13,7 @@ import Year2022 from './pages/fundraising/archive/2022.js';
 import Year2023 from './pages/fundraising/archive/2023.js';
 import Year2024 from './pages/fundraising/archive/2024.js';
 import Year2025 from './pages/fundraising/archive/2025.js';
-import NoPage from './pages/404.jsx';
+import NoPage from './pages/404/404.jsx';
 
 export default function App() {
     let pathname = window.location.pathname
@@ -24,7 +23,6 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
-                <Route path="fundraising" element={<FundraisingHome />} />
                 <Route path="fundraising/members" element={<Members />} />
                 <Route path="fundraising/archive" element={<Archive />} />
                 <Route path="fundraising/archive/2020" element={<Year2020 />} />

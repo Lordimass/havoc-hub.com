@@ -1,11 +1,12 @@
-import "../css/header.css"
+import "./header.css"
+import {TRANSPARENT_PRIMARY_LOGO} from "../../lib/consts";
 
 export default function Header() {
     return (
         <div className="header">
-            <a className="logo" href="/fundraising">
-                <img src="https://cdn.reformationfundraising.com/rffcom/logosmol.png"/>
-                <h1>HAVOC FUNDRAISING</h1>
+            <a className="logo" href="/">
+                {/* TODO: Use logo with no swirly effect, and use square "H" logo on mobile*/}
+                <img src={TRANSPARENT_PRIMARY_LOGO} alt="logo" />
             </a>
   
             

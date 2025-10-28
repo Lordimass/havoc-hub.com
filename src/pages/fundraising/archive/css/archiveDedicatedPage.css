@@ -8,6 +8,7 @@
     font-size: 20vw;
     text-align: center;
     background-color: rgba(0,0,0,0);
+    color: white;
 }
 
 #y2020 {
@@ -29,7 +30,7 @@
 #y2024 {
     background-image: url("https://cdn.reformationfundraising.com/rffcom/2024theme.jpeg");
     background-position-y: 50%;
-    color: black;
+    color: var(--black);
 }
 #y2024 h1 {
     color: black;

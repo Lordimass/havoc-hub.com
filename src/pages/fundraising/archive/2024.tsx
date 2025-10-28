@@ -1,7 +1,7 @@
 import { TitleBox, DonationLog, VODs } from "./archiveCommon"
 import { archiveData } from "./archiveData"
-import Header from "../../../assets/components/header"
-import Footer from "../../../assets/components/footer"
+import Header from "../../../components/headerFooter/header"
+import Footer from "../../../components/headerFooter/footer"
 import "./css/2024.css"
 
 export default function Year2024() {

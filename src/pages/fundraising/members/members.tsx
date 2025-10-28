@@ -1,6 +1,6 @@
-import Header from '../../../assets/components/header'
-import Footer from '../../../assets/components/footer'
-import CurveSubheader from '../../../assets/components/curveSubheader'
+import Header from '../../../components/headerFooter/header'
+import Footer from '../../../components/headerFooter/footer'
+import CurveSubheader from '../../../components/curveSubheader/curveSubheader'
 
 import "./members.css"
 
@@ -25,11 +25,9 @@ export default function Members() {
         </div>
 
         <Streamers />
-
-        <CurveSubheader content={"ALSO JOINED BY..."}/>
+            <CurveSubheader>ALSO JOINED BY...</CurveSubheader>
         <ExtraMembers />
-
-        <CurveSubheader content={"WITH SPECIAL THANKS TO..."}/>
+            <CurveSubheader>WITH SPECIAL THANKS TO...</CurveSubheader>
         <SpecialThanks />
 
 

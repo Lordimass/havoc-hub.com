@@ -37,7 +37,7 @@ export function DonationLog({year}: {year: keyof Years}) {
         )
     })
 
-    return (<>
+    return (<div className="donation-log">
         <h1 className="archiveh1">Donation Log</h1>
         <table className="donationArchive"><tbody>
             <tr>
@@ -48,7 +48,7 @@ export function DonationLog({year}: {year: keyof Years}) {
             {donations}
         </tbody></table>
 
-    </>)
+    </div>)
 }
 
 export function VODs({year}: {year: keyof Years}) {

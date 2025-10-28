@@ -1,5 +1,5 @@
-import Footer from "../../../assets/components/footer";
-import Header from "../../../assets/components/header";
+import Footer from "../../../components/headerFooter/footer";
+import Header from "../../../components/headerFooter/header";
 import "./css/archiveDedicatedPage.css";
 
 export default function Archive() {
