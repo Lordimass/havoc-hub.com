@@ -3,7 +3,7 @@ import { archiveData } from "./archiveData"
 import Header from "../../../components/headerFooter/header"
 import Footer from "../../../components/headerFooter/footer"
 import "./css/2025.css"
-import { Leaderboard2025 } from "../../../components/podium/podium"
+import { Leaderboard } from "../../../components/podium/podium"
 
 export default function Year2025() {
     const year = "2025"
@@ -73,7 +73,7 @@ export default function Year2025() {
         </div>
         </div>
 
-        <Leaderboard2025 />
+        <Leaderboard/>
 
     </div>
 

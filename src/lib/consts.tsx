@@ -1,1 +1,0 @@
-export const TRANSPARENT_PRIMARY_LOGO = "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/transparent-primary-logo.png"

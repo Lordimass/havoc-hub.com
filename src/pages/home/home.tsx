@@ -1,10 +1,11 @@
 import { TRANSPARENT_PRIMARY_LOGO } from "../../lib/consts";
 import "./home.css"
 import Page from "../../components/page/page";
+import {Leaderboard} from "../../components/podium/podium";
 
 
 export default function Home() {
-    return (<Page className="content-page">
+    return (<Page className="content-page" id="home-page">
             <div className="content-box">
                 <div id="home-page-logo">
                     <img
@@ -31,5 +32,6 @@ export default function Home() {
                     members page to see the team's social media pages.
                 </p>
             </div>
+        <Leaderboard/>
     </Page>);
 }

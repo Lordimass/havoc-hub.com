@@ -3,29 +3,31 @@
     grid-template-columns: 32% 67%;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "blurb podium"; 
-    padding-bottom: 2vw;
-    margin: 5%;
-    margin-bottom: 1vw;
+    "blurb podium";
     width: 90%;
     height: max-content;
-    border-radius: 1vw;
+    margin: 20px;
 }
 
 .podium-container {
     display: flex;
     grid-area: podium;
-    background-color: white;
-    border-top-right-radius: 1vw;
-    border-bottom-right-radius: 1vw;
-    padding: 5%;
+    background-color: var(--whitePrimary);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -7px 0 10px rgba(95, 92, 104, 0.5);
+    z-index: 2;
+}
+
+.podium-container img {
+    width: 100%;
 }
 
 .podium-blurb {
     grid-area: blurb;
-    background-image: linear-gradient(to left, rgb(206, 206, 206) 0%, white 5%);
-    border-top-left-radius: 1vw;
-    border-bottom-left-radius: 1vw;
+    background-color: var(--whitePrimary);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: 1vw;
 }
 
