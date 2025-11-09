@@ -52,6 +52,11 @@ export function useCallRPC(
     return {loading, data, error};
 }
 
+/**
+ * Fetch the top donors names and the amount they've donated, excluding Anonymous.
+ * @param lim The number of top donors to return. Defaults to 10.
+ * @return A list of objects with a `name` and `total_donation` number.
+ */
 export function useGetTopDonors(lim = 10) {
     const resp = useCallRPC(
         "get_top_donors",
@@ -66,6 +71,14 @@ export function useGetTopDonors(lim = 10) {
             topDonors.push({name: "Name", total_donation: 0})
         }
     }
-
     return topDonors;
+}
+
+/**
+ * Fetch the total amount of money donated so far.
+ * @return A number representing the amount of money donated over all campaigns in GBP.
+ */
+export function useGetTotalDonations() {
+    const resp = useCallRPC("get_total_donations")
+    return resp.data as number || 0;
 }
