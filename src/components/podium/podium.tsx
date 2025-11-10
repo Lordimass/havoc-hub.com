@@ -10,6 +10,20 @@ export function Leaderboard() {
     return (
         <div className="podium-main-box">
             <div className="podium-container">
+                <div className="podium-text-container">
+                    <div className="podium-text">
+                        <p>{topDonors[1].name}</p>
+                        <p>£{topDonors[1].total_donation.toFixed(0)}</p>
+                    </div>
+                    <div className="podium-text">
+                        <p>{topDonors[0].name}</p>
+                        <p>£{topDonors[0].total_donation.toFixed(0)}</p>
+                    </div>
+                    <div className="podium-text">
+                        <p>{topDonors[2].name}</p>
+                        <p>£{topDonors[2].total_donation.toFixed(0)}</p>
+                    </div>
+                </div>
                 <Podium/>
             </div>
 
