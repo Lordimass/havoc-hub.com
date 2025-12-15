@@ -12,7 +12,11 @@ import App from './app';
 
 import { createRoot } from 'react-dom/client'
 
-const rootElement = document.getElementById('root')
-if (!rootElement) {throw "No root found!"}
-const root = createRoot(rootElement);
-root.render(<App />);
+const rootEl = document.getElementById("root");
+
+if (rootEl) {
+    const root = createRoot(rootEl);
+    root.render(<App />);
+} else {
+    console.error("Couldn't find root element!");
+}

@@ -19,7 +19,13 @@ export default function App() {
     let pathname = window.location.pathname
     ReactGA.initialize("G-WED19TWS98")
     ReactGA.send({hitType:"pageview", page:pathname, title:pathname});
-    return (
+    return (<>
+        <meta name='author' content='Sam Knight'/>
+        <meta name='author' content='Lordimass'/>
+        <meta name='creator' content='Sam Knight'/>
+        <meta name='creator' content='Lordimass'/>
+        <meta name='generator' content='react'/>
+
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
@@ -34,5 +40,5 @@ export default function App() {
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>
-    );
+    </>);
 }
