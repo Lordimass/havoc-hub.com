@@ -1,5 +1,5 @@
 .stream-main-box-container {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/Collage.jpg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/collage.jpg");
     background-size: cover;
 }
 
@@ -26,8 +26,7 @@
     border-top-right-radius: 1vw;
     border-top-left-radius: 1vw;
     text-align: center;
-    text-justify: center;
-    font-family: Omnes Pro;
+    font-family: Omnes Pro, sans-serif;
     font-size: 2vw;
     cursor: pointer;
 }
@@ -138,7 +137,7 @@
 }
 
 .stream-embed-container {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2025theme.jpg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2025theme.jpg");
     margin: 0;
     grid-area: stream-embed;
     width: 100%;

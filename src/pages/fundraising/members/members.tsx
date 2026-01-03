@@ -15,8 +15,8 @@ export default function Members() {
         <div id="title-container">
             <div id="title-box">
                 <div id="title-content-container">
-                    <div className="Logo-2"><img src="https://cdn.reformationfundraising.com/rffcom/logo.png" /></div>
-                    <div className="Logo-1"><img src="https://cdn.reformationfundraising.com/rffcom/logo.png" /></div>
+                    <div className="Logo-2"><img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/logos/Submark/TRANSPARENT%20Submark.png" /></div>
+                    <div className="Logo-1"><img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/logos/Submark/TRANSPARENT%20Submark.png" /></div>
                     <div className="Streamers-Title"><h1>MEMBERS</h1></div>
                     <div className="Streamers-Subtitle"><p>Show some support to everyone by following their socials too!</p></div>
                 </div>

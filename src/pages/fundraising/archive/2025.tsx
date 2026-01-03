@@ -47,7 +47,7 @@ export default function Year2025() {
     
         <div className="main-box" id="schedule-main-box">
         <div className="schedule-container">
-            <img src="https://cdn.reformationfundraising.com/rffcom/Schedule.png" width="100%"/>
+            <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2025/Schedule.png" width="100%"/>
         </div>
 
         <div className="schedule-info-container">

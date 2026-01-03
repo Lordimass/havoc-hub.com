@@ -14,7 +14,7 @@ export const archiveData: Years = {
         "amount" : "£531.50",
         "blurb" : "The 2020 livestream was a 19 hour stream to raise money for the British Red Cross: Operation Covid-19. This stream took place during the first Corona Virus lockdown on the 23rd of May. Neither Lordimass nor Lkactus captured a recording of the stream because it was their first time streaming, so only the Tiltify Page exists to commemorate the first in the series of streams.",
         "link" : "https://tiltify.com/@lordimass/red-cross-stream-w-lkaktus",
-        "theme" : "https://cdn.reformationfundraising.com/rffcom/2020theme.jpeg",
+        "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2020theme.jpeg",
         "themeShift" : -20,
         "donations" : [ // Generated with https://www.seabreezecomputers.com/excel2array/
             [" £ 10.00 ", "Tchrin", "Good luck, have fun!"], 
@@ -72,7 +72,7 @@ export const archiveData: Years = {
         "charity" : "Mental Health UK",
         "amount" : "£693.16",
         "blurb" : "The 2021 livestream was a 24 hour stream to raise money for Mental Health UK. This stream was done as part of a school event where teams of people had to raise as much money as possible to win points for their house, our team won by a couple of orders of magnitude. Due to the fact that it was a school managed event, the donations page was not managed through Tiltify like in 2020, we have since managed to locate the donation logs, but for that reason won't be sharing the page out of respect for everyone's privacy, but the VOD is published below!",
-        "theme" : "https://cdn.reformationfundraising.com/rffcom/2021theme.jpeg",
+        "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2021theme.jpeg",
         "themeShift" : -20,
         "vods" : [
             "https://www.youtube.com/embed/5QgxcR86fHY",
@@ -107,7 +107,7 @@ export const archiveData: Years = {
         "amount" : "£703.48",
         "blurb" : "The 2022 livestream is the first stream where the whole event was properly archived, we have the Tiltify Page, a recording of the whole stream, and access to the full donation log.",
         "link" : "https://tiltify.com/+reformation-fundraising/24hr-steam-2022",
-        "theme" : "https://cdn.reformationfundraising.com/rffcom/2022theme.gif",
+        "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2022theme.gif",
         "themeShift" : -20,
         "vods" : [
             "https://www.youtube.com/embed/659o7JL-GyA",
@@ -169,7 +169,7 @@ export const archiveData: Years = {
         "amount" : "£1310",
         "blurb" : "At the beginning of the 2022 livestream news came through that Russian troops had entered Ukraine, so one year later we felt that it was only right to raise money to support people in Ukraine. During this stream we raised nearly double the amount from the previous year through our Tiltify Page",
         "link" : "https://tiltify.com/+reformation-fundraising/24hr-stream-2023-operation-ukraine-2023-09-26",
-        "theme" : "https://cdn.reformationfundraising.com/rffcom/2023theme.jpeg",
+        "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2023theme.jpeg",
         "themeShift" : -20,
         "vods" : [
             "https://www.youtube.com/embed/W0rqOU50vRg",
@@ -231,7 +231,7 @@ export const archiveData: Years = {
         "amount" : "£2000",
         "blurb" : "This stream was an absolutely giant effort from everyone involved, it was our biggest event to date and the first one with aid from our website for marketing. Clearly that worked because we improved on the previous year by even more than we did last year, despite using a GoFundMe Page for donations instead of Tiltify. Absolute insanity.",
         "link" : "https://www.gofundme.com/f/24hr-stream-2024-reformation-fundraising",
-        "theme" : "https://cdn.reformationfundraising.com/rffcom/2024theme.jpeg",
+        "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2024theme.jpeg",
         "themeShift" : -3,
         "blackText" : true,
         "vods" : [
@@ -325,7 +325,7 @@ export const archiveData: Years = {
         "amount" : "£3190.46",
         "blurb" : "This year many of us started at University, giving us a whole new demographic of people to show what we do. We used posters to advertise to as many people as possible and evidently, it worked to an incredible degree. Once again we smashed last year's total, exeeding everyone's expectations for the 6th year in a row. Thank you so much to everyone involved, from the streamers to the viewers to the donators. ",
         "link" : "https://tiltify.com/+reformation-fundraising/reformation-fundraising-2025",
-        "theme" : "https://cdn.reformationfundraising.com/rffcom/2025theme.jpg",
+        "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2025theme.jpg",
         "themeShift" : -3,
         "vods" : [
             // Note to 2026 Lordi:

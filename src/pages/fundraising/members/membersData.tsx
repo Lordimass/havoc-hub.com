@@ -19,7 +19,7 @@ export type SocialIcon = {
 export const membersData: MemberData[] = [ // Order of members determines the order of render on the site
     {
         "username": "Lordimass",
-        "icon" : "https://cdn.reformationfundraising.com/rffcom/streamer-icons/lordimass-icon.png",
+        "icon" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/streamer-icons/lordimass-icon.png",
         "name" : "Sam",
         "pronouns" : "He/Him",
         "socials" : [ // First social is linked on the username
@@ -28,12 +28,11 @@ export const membersData: MemberData[] = [ // Order of members determines the or
             {name: "bsky", href: "https://bsky.app/profile/lordimass.net"},
             {name: "discord", href: "https://discord.com/users/969949353605230604"},
             {name: "website", href: "https://lordimass.net"},
-            {name: "wiki", href: "https://reformation.wiki.gg/Lordimass"}
         ]
     },
     {
         "username": "Skipper",
-        "icon" : "https://cdn.reformationfundraising.com/rffcom/streamer-icons/skipper-icon.png",
+        "icon" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/streamer-icons/skipper-icon.png",
         "name" : "Konrad",
         "pronouns" : "He/Him",
         "socials" : [
@@ -45,20 +44,8 @@ export const membersData: MemberData[] = [ // Order of members determines the or
         ]
     },
     {
-        "username": "OtherworldlyFinn",
-        "icon" : "https://cdn.reformationfundraising.com/rffcom/streamer-icons/otherwordlyfinn-icon.png",
-        "name" : "Finn",
-        "pronouns" : "He/They",
-        "socials" : [
-            {name: "twitch", href: "https://www.twitch.tv/otherworldlyfinn"},
-            {name: "youtube", href: "https://www.youtube.com/@OtherworldlyFinn"},
-            {name: "bsky", href: "https://bsky.app/profile/otherworldlyfinn.bsky.social"},
-            {name: "discord", href: "https://discord.com/users/710071392288112793"},
-        ]
-    },
-    {
         "username": "Dartnk",
-        "icon" : "https://cdn.reformationfundraising.com/rffcom/streamer-icons/darth-icon.png",
+        "icon" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/streamer-icons/darth-icon.png",
         "name" : "Ben",
         "pronouns" : "He/Him",
         "socials" : [
@@ -67,7 +54,7 @@ export const membersData: MemberData[] = [ // Order of members determines the or
     },
     {
         "username": "Goose",
-        "icon" : "https://cdn.reformationfundraising.com/rffcom/streamer-icons/goose-icon.png",
+        "icon" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/streamer-icons/goose-icon.png",
         "name" : "Zac",
         "pronouns" : "He/Him",
         "socials" : [
@@ -78,7 +65,7 @@ export const membersData: MemberData[] = [ // Order of members determines the or
     },
     {
         "username": "FourYearChaos",
-        "icon" : "https://cdn.reformationfundraising.com/rffcom/streamer-icons/chaos-icon.png",
+        "icon" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/streamer-icons/chaos-icon.png",
         "name" : "Alan",
         "pronouns" : "He/Him",
         "socials" : [
@@ -89,10 +76,10 @@ export const membersData: MemberData[] = [ // Order of members determines the or
 ]
 
 export const socialIcons: SocialIcon[] = [
-    {name: "twitch", src: "https://cdn.reformationfundraising.com/rffcom/social-platform-icons/twitch.jpg"},
-    {name: "youtube", src: "https://cdn.reformationfundraising.com/rffcom/social-platform-icons/youtube.jpg"},
-    {name: "bsky", src: "https://cdn.reformationfundraising.com/rffcom/social-platform-icons/bluesky.jpg"},
-    {name: "discord", src: "https://cdn.reformationfundraising.com/rffcom/social-platform-icons/discord.jpg"},
-    {name: "website", src: "https://cdn.reformationfundraising.com/rffcom/social-platform-icons/web.svg"},
-    {name: "wiki", src: "https://cdn.reformationfundraising.com/rffcom/social-platform-icons/rfwiki.jpg"}
+    {name: "twitch", src: "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/social-platform-icons/twitch.jpg"},
+    {name: "youtube", src: "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/social-platform-icons/youtube.jpg"},
+    {name: "bsky", src: "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/social-platform-icons/bluesky.jpg"},
+    {name: "discord", src: "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/social-platform-icons/discord.jpg"},
+    {name: "website", src: "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/social-platform-icons/web.svg"},
+    {name: "wiki", src: "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/social-platform-icons/rfwiki.jpg"}
 ]

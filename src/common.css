@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: "Omnes Light";
-    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Light.ttf") format("opentype");
+    src: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/files/fonts/omnes/Omnes%20Light.ttf") format("opentype");
 }
 
 @font-face {
     font-family: "Omnes Medium";
-    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Medium.ttf") format("opentype");
+    src: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/files/fonts/omnes/Omnes%20Medium.ttf") format("opentype");
 }
 
 @font-face {
     font-family: "Omnes Pro Bold";
-    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Pro\ Bold.otf") format("opentype");
+    src: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/files/fonts/omnes/Omnes%20Pro%20Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Omnes Black";
-    src: url("https://cdn.reformationfundraising.com/omnes/Omnes\ Black.ttf") format("opentype");
+    src: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/files/fonts/omnes/Omnes%20Black.ttf") format("opentype");
 }
 
 /****************  COLOURS  ****************/

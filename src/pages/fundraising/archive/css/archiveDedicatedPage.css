@@ -12,29 +12,26 @@
 }
 
 #y2020 {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2020theme.jpeg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2020theme.jpeg");
     background-position-y: 50%;
 }
 #y2021 {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2021theme.jpeg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2021theme.jpeg");
     background-position-y: 25%;
 }
 #y2022 {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2022theme.gif");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2022theme.jpeg");
     background-position-y: 75%;
 }
 #y2023 {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2023theme.jpeg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2023theme.jpeg");
     background-position-y: 50%;
 }
 #y2024 {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2024theme.jpeg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2024theme.jpeg");
     background-position-y: 50%;
     color: var(--black);
 }
-#y2024 h1 {
-    color: black;
-}
 #y2025 {
-    background-image: url("https://cdn.reformationfundraising.com/rffcom/2025theme.jpg");
+    background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2025theme.jpeg");
 }

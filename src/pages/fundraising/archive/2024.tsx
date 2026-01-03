@@ -12,7 +12,7 @@ export default function Year2024() {
     <VODs year={year}/>
 
     <div className="stream-embed-container">
-    <img src="https://cdn.reformationfundraising.com/rffcom/2024/twitch-embed-screen-capture.jpeg" />
+    <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2024/twitch-embed-screen-capture.jpeg" />
         <div className="stream-embed-side-info">
         <h1 id="title-1">24HR STREAM</h1>
             <div className="title-2-container"><h1 id="title-2">2024</h1></div>
@@ -39,7 +39,7 @@ export default function Year2024() {
     <div className="headline-events">
         <h1 style={{textAlign: "center", fontSize: "6vw"}}>Headline Events</h1>
         <div className="events-split">
-            <img src="https://cdn.reformationfundraising.com/rffcom/2024/Schedule.svg" className="schedule" style={{height: "100%"}}/>
+            <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2024/Schedule.svg" className="schedule" style={{height: "100%"}}/>
             <div className="schedule-text">
             <p>
                 <i>These are just the headline events for the stream, in between each of these we'll be playing other games too! All times are in GMT+0, starting from 11th February 2024</i>
@@ -70,7 +70,7 @@ export default function Year2024() {
         <div className="charity-text">
             <div className="title-container">
                 <h1>TEACH ME HAPPY</h1>
-                <img src="https://cdn.reformationfundraising.com/rffcom/2024/TMH-No-Text.jpeg"/>
+                <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2024/TMH-No-Text.jpeg"/>
             </div>
             <p>
                 <b>Teach Me Happy</b> is an alternate provision school which provides resources for children with neurodivergence and those that struggle in mainstream education.
@@ -86,14 +86,14 @@ export default function Year2024() {
                 <a href="https://www.gofundme.com/f/24hr-stream-2024-reformation-fundraising" target="_blank"><button>DONATE</button></a>
             </div>
         </div>
-        <img src="https://cdn.reformationfundraising.com/rffcom/2024/noah.jpg" id="curved-tmh-image"/>
+        <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2024/noah.jpg" id="curved-tmh-image"/>
     </div>
 
     <div className="charity-info">
         <div className="charity-text">
             <div className="title-container">
                 <h1>DOCTORS WITHOUT BORDERS</h1>
-                <img src="https://cdn.reformationfundraising.com/rffcom/2024/msf-logo.jpg"/>
+                <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2024/msf-logo.jpg"/>
             </div>
             <p>
                 Last year we raised money to help out in Ukraine to support them and end the war.
@@ -110,7 +110,7 @@ export default function Year2024() {
                 <a href="https://www.gofundme.com/f/24hr-stream-2024-reformation-fundraising" target="_blank"><button>DONATE</button></a>
             </div>
         </div>
-        <img src="https://cdn.reformationfundraising.com/rffcom/2024/msf.jpg" id="curved-tmh-image"/>
+        <img src="https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/2024/msf.jpg" id="curved-tmh-image"/>
     </div>
 
     <DonationLog year={year}/>
