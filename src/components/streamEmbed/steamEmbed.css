@@ -1,0 +1,182 @@
+#stream-embed-content-box {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 0;
+}
+
+.stream-embed-left {
+    width: 100%;
+    height: 100%;
+    align-self: flex-end;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.stream-embed-right {
+    .stream-embed-chat-tab-button, .stream-embed-info-tab-button {
+        position: relative;
+        left: 30px;
+        width: 30%;
+        height: 40px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        text-align: center;
+        font-family: "Omnes Pro Bold", sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #title-1 {
+        line-height: 1em;
+    }
+
+    .title-2-container {
+        padding-right: 10px;
+        background-color: var(--black);
+        h1 {
+            color: white
+        }
+    }
+
+    .donate-button, .more-button {
+        font-family: "Omnes Black", serif;
+        padding: 0 20px 0 20px;
+        width: max-content;
+        border: none;
+        background-color: var(--black);
+        color: white;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .info-tab-buttons {
+        display: flex;
+        gap: 10px
+    }
+
+    .donate-button:hover, .more-button:hover {
+        background-color: var(--darkPrimary);
+    }
+
+    .info-tab, .chat-tab {
+        display: block;
+        background-color: var(--whitePrimary);
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        min-height: 600px;
+        width: 400px;
+        box-sizing: border-box;
+    }
+
+    .info-tab {
+        p {
+            font-size: 20px
+        }
+
+        padding: 10px;
+        background-image: linear-gradient(to right, rgb(206, 206, 206) 0%, var(--whitePrimary) 5%);
+
+        .info-tab-text {
+            overflow: visible;
+        }
+    }
+
+    .chat-tab {
+        width: 400px;
+    }
+}
+
+.stream-embed-tabs {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+
+    button {
+        border: none;
+    }
+}
+
+.stream-embed-chat-tab-button {
+    background-image: linear-gradient(var(--whitePrimary), rgb(227, 215, 200));
+}
+
+.stream-embed-info-tab-button {
+    background-color: var(--whitePrimary);
+}
+
+@media screen and (max-width: 1100px) {
+    #stream-embed-content-box {
+        flex-direction: column-reverse;
+        border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
+
+        .stream-embed-left {
+            width: 100%;
+            border-radius: 0;
+        }
+
+        .info-tab, .chat-tab {
+            width: 100%;
+            min-height: unset;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .info-tab {
+            background-image: none;
+
+            #title-1 {
+                font-size: 40px;
+                padding-left: 1vw;
+                text-align: center;
+            }
+
+            .title-2-container {
+                transform: translateX(-100%);
+                width: 90%;
+                border-radius: 10px;
+
+                h1 {
+                    font-size: 40px;
+                }
+            }
+
+            .info-tab-text p {
+                padding-left: 1vw;
+                font-size: 18px;
+            }
+
+            .info-tab-buttons a {
+                margin: 0;
+            }
+        }
+    }
+
+    .info-tab-button, .chat-tab-button {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1vw;
+        width: 100%;
+        height: 75%;
+    }
+
+    .info-tab-button p, .chat-tab-button p {
+        font-size: 4vw;
+    }
+
+    .chat-tab-button {
+        background-image: linear-gradient(to right, white ,rgb(240, 240, 240));
+    }
+
+    .more-button, .donate-button {
+        margin-top: 2vw;
+        font-size: 5vw;
+    }
+
+    .info-tab {
+        background-image: linear-gradient(rgb(206, 206, 206) 0%, white 5%);
+    }
+}

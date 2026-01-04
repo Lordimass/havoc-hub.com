@@ -106,7 +106,7 @@ export const archiveData: Years = {
         "charity" : "Mind",
         "amount" : "£703.48",
         "blurb" : "The 2022 livestream is the first stream where the whole event was properly archived, we have the Tiltify Page, a recording of the whole stream, and access to the full donation log.",
-        "link" : "https://tiltify.com/+reformation-fundraising/24hr-steam-2022",
+        "link" : "https://tiltify.com/+havoc-fundraising/24hr-steam-2022",
         "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2022theme.gif",
         "themeShift" : -20,
         "vods" : [
@@ -168,7 +168,7 @@ export const archiveData: Years = {
         "charity" : "British Red Cross: Operation Ukraine",
         "amount" : "£1310",
         "blurb" : "At the beginning of the 2022 livestream news came through that Russian troops had entered Ukraine, so one year later we felt that it was only right to raise money to support people in Ukraine. During this stream we raised nearly double the amount from the previous year through our Tiltify Page",
-        "link" : "https://tiltify.com/+reformation-fundraising/24hr-stream-2023-operation-ukraine-2023-09-26",
+        "link" : "https://tiltify.com/+havoc-fundraising/24hr-stream-2023-operation-ukraine-2023-09-26",
         "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2023theme.jpeg",
         "themeShift" : -20,
         "vods" : [
@@ -324,7 +324,7 @@ export const archiveData: Years = {
         "charity" : "Stonewall",
         "amount" : "£3190.46",
         "blurb" : "This year many of us started at University, giving us a whole new demographic of people to show what we do. We used posters to advertise to as many people as possible and evidently, it worked to an incredible degree. Once again we smashed last year's total, exeeding everyone's expectations for the 6th year in a row. Thank you so much to everyone involved, from the streamers to the viewers to the donators. ",
-        "link" : "https://tiltify.com/+reformation-fundraising/reformation-fundraising-2025",
+        "link" : "https://tiltify.com/+havoc-fundraising/reformation-fundraising-2025",
         "theme" : "https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/yearly-themes/2025theme.jpg",
         "themeShift" : -3,
         "vods" : [

@@ -18,7 +18,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-favicon": "^2.0.7",
-    "react-ga4": "^2.1.0"
+    "react-ga4": "^2.1.0",
+    "react-twitch-embed": "^3.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
