@@ -14,5 +14,5 @@ export const specialThanks = [
     {name: "Thanatos", desc: "Starting Havoc in 2020"},
     {name: "You!", desc: "For being here :D"},
     {name: "The Charities", desc: "The amazing work they do"},
-    {name: "Postor Donors", desc: "Funding poster printing"},
+    {name: "Poster Donors", desc: "Funding poster printing"},
 ]
