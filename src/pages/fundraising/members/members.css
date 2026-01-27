@@ -56,18 +56,47 @@
     grid-template-areas: 
       "icon username"
       "icon name"
-      "icon socials";
+      "icon socials"
+      "none status";
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
 }
 
+.streamer.not-participating {
+    background-color: var(--darkWhitePrimary);
+}
+
+.status {
+    height: 0;
+    position: relative;
+    bottom: 10px;
+    grid-area: status;
+    display: flex;
+    flex-direction: row;
+    p {
+        font-size: 14px;
+        color: var(--darkPrimary);
+    }
+}
+
+.record-icon {
+    position: relative;
+    top: 2px;
+    width: 1em;
+    height: 1em;
+    background-color: #822143;
+    margin: 0 0.5ch 0 0.5ch;
+    border-radius: 100%;
+}
+
 .streamer:nth-child(even) {
     grid-template-areas: 
       "username icon"
       "name icon"
-      "socials icon";
+      "socials icon"
+      "status none";
 
     grid-template-columns: 30vw 10vw;
     justify-self: right;
@@ -76,11 +105,13 @@
 .icon {
     grid-area: icon;
     height: 130%;
+    border-radius: 100%;
 }
 
 .member-username {
     grid-area: username;
     font-family: "Omnes Black";
+    color: var(--black);
     font-size: 2.8vw;
     margin: 0;
     line-height: 3vh;

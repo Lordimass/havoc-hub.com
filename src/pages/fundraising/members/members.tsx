@@ -4,7 +4,7 @@ import CurveSubheader from '../../../components/curveSubheader/curveSubheader'
 
 import "./members.css"
 
-import {MemberData, membersData, socialIcons} from "./membersData"
+import {MemberData, membersData, socialIcons} from "./membersData.ts"
 import { ExtraMemberData, extraMembers } from "./extraMembers"
 import { SpecialThankData, specialThanks } from "./specialThanks"
 
@@ -25,11 +25,10 @@ export default function Members() {
         </div>
 
         <Streamers />
-            <CurveSubheader>ALSO JOINED BY...</CurveSubheader>
-        <ExtraMembers />
+        {/*    <CurveSubheader>ALSO JOINED BY...</CurveSubheader>*/}
+        {/*<ExtraMembers />*/}
             <CurveSubheader>WITH SPECIAL THANKS TO...</CurveSubheader>
         <SpecialThanks />
-
 
         </div> <Footer /> </>
     );
@@ -47,17 +46,23 @@ function Streamers() {
 
 function Streamer({streamer}: {streamer: MemberData}) {
     return (
-        <div className="streamer" id={streamer.username}>
+        <div className={`streamer${!streamer.participating ? " not-participating" : ""}`} id={streamer.username}>
             <img className='icon' src={streamer.icon}/>
-            <a className="member-username" href={streamer.socials[0].href}>{streamer.username.toUpperCase()}</a>
+            <a className="member-username" href={streamer.socials?.length ? streamer.socials[0].href : undefined}>
+                {streamer.username.toUpperCase()}
+            </a>
             <p className="member-name">{streamer.name} | {streamer.pronouns}</p>
             <div className='socials'>
-                {streamer.socials.map((social, index) => (
+                {streamer.socials ? streamer.socials.map((social, index) => (
                     <a key={index} href={social.href}><img src={
                         socialIcons.filter(icon => icon.name === social.name)[0]?.src
                     }/></a>
-                ))}
+                )) : null}
             </div>
+            <div className="status">{streamer.streaming
+                ? <><div className="record-icon"></div><p>Streamer!</p></>
+                : !streamer.participating ? <p>Couldn't make it this year! :(</p>: null
+            }</div>
         </div>
     );
 }
