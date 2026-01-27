@@ -140,11 +140,11 @@ export const membersData: MemberData[] = [ // Order of members determines the or
 ]
 
 export const socialIcons: SocialIcon[] = [
-    {name: "twitch", src: `${IMAGES_BUCKET}social-platform-icons/twitch.jpg`},
-    {name: "youtube", src: `${IMAGES_BUCKET}social-platform-icons/youtube.jpg`},
-    {name: "bsky", src: `${IMAGES_BUCKET}social-platform-icons/bluesky.jpg`},
+    {name: "twitch", src: `${IMAGES_BUCKET}social-platform-icons/twitch.png`},
+    {name: "youtube", src: `${IMAGES_BUCKET}social-platform-icons/youtube.png`},
+    {name: "bsky", src: `${IMAGES_BUCKET}social-platform-icons/bluesky.png`},
     {name: "discord", src: `${IMAGES_BUCKET}social-platform-icons/discord.jpg`},
     {name: "website", src: `${IMAGES_BUCKET}social-platform-icons/web.svg`},
-    {name: "wiki", src: `${IMAGES_BUCKET}social-platform-icons/rfwiki.jpg`},
-    {name: "instagram", src: `${IMAGES_BUCKET}social-platform-icons/instagram.jpg`},
+    {name: "wiki", src: `${IMAGES_BUCKET}social-platform-icons/rfwiki.png`},
+    {name: "instagram", src: `${IMAGES_BUCKET}social-platform-icons/instagram.png`},
 ]
