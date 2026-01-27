@@ -1,8 +1,11 @@
-import {TRANSPARENT_PRIMARY_LOGO, TRANSPARENT_SECONDARY_LOGO} from "../../lib/consts";
+import {MERMAIDS_IMAGE, TRANSPARENT_PRIMARY_LOGO, TRANSPARENT_SECONDARY_LOGO} from "../../lib/consts";
 import "./home.css"
 import Page from "../../components/page/page";
 import {Leaderboard} from "../../components/podium/podium";
 import StreamEmbed from "../../components/streamEmbed/streamEmbed.tsx";
+import CharityInformation, {
+    MermaidsCharityInformation
+} from "../../components/charityInformation/charityInformation.tsx";
 
 /** Whether the next stream is soon or not, changes some of the content of the page */
 const STREAM_SOON = true;
@@ -28,6 +31,7 @@ export default function Home() {
         </div>
         <StreamEmbed/>
         <Leaderboard/>
+        <MermaidsCharityInformation/>
     </Page>);
 }
 

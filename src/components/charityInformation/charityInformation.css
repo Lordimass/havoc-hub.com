@@ -1,0 +1,101 @@
+.charity-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+    .charity-info-box {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        flex-grow: 1;
+        max-width: 100%;
+
+        h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                height: 1em;
+            }
+        }
+
+        p {
+            font-family: "Omnes Light", sans-serif;
+        }
+    }
+
+    .charity-info-image {
+        border-radius: 10px 10px 25px 100%;
+        overflow: hidden;
+        height: 60vh;
+        width: 60vh;
+        max-width: 100%;
+
+        img {
+            position: relative;
+        }
+    }
+
+    .charity-info-buttons {
+        display: flex;
+        margin-top: 20px;
+        gap: 10px;
+        width: 100%;
+
+        a {
+            width: 100%;
+        }
+
+        .donate-button, .more-button {
+            font-family: "Omnes Black", serif;
+            padding: 0 20px 0 20px;
+            width: 100%;
+            border: none;
+            color: white;
+            background-color: var(--black);
+            height: 60px;
+            border-radius: 20px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .donate-button:hover, .more-button:hover {
+            background-color: var(--darkPrimary);
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .charity-information {
+        flex-direction: column;
+
+        .charity-info-box {
+            h1 {
+                font-size: 13vw;
+            }
+        }
+
+        .charity-info-buttons {
+            flex-direction: column;
+            margin-top: 0;
+
+            .more-button, .donate-button {
+                margin: 0;
+                font-size: 19px;
+                height: 100%;
+                padding: 5px;
+            }
+        }
+
+        .charity-info-image {
+            height: 40vh;
+
+            img {
+                zoom: 50%;
+            }
+        }
+    }
+}

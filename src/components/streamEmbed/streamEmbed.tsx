@@ -13,7 +13,8 @@ export default function StreamEmbed() {
                 setInfoTabHeight(infoTab.current.scrollHeight)
             }
         }
-        resizeStreamEmbed()
+        // Wait a whole second as a fallback in case embed hasn't loaded, then recalculate size
+        window.setTimeout(resizeStreamEmbed, 1000)
         window.addEventListener("resize", resizeStreamEmbed);
         return () => {
             if (infoTab.current) window.removeEventListener("resize", resizeStreamEmbed);
@@ -60,15 +61,16 @@ function InfoTab({ref}: {ref: RefObject<HTMLDivElement | null>}) {
                     Welcome to the 7th stream in our series of annual charity livestreams!
                     <br/><br/>
                     We invite you to join us on the 21st of February from 6am GMT to raise
-                    money for <b><a href="https://mermaidsuk.org.uk/">Mermaids</a></b>. This is an important charity to
-                    us because of their work supporting trans youth.
+                    money for <b><a href="https://mermaidsuk.org.uk/">Mermaids</a></b>. This is charity is very
+                    important to us all because of their fight to support trans youth in an increasingly discouraging
+                    world.
                     <br/><br/>
                     Check out our <b><a href={"http://localhost:8888/fundraising/members"}>members page</a></b> to find out about everyone who makes up our group,
                     or use the buttons below for more.
                 </p>
             </div>
             <div className="info-tab-buttons">
-                <a href="#COMING-SOON">
+                <a href="#find-out-more">
                     <button className="more-button">Find Out More</button>
                 </a>
                 <a href="https://tiltify.com/+havoc-fundraising/hf2026"
@@ -91,7 +93,7 @@ function ChatTab({height}: {height: number}) {
                 setWidth(window.innerWidth + 3)
             }
         }
-        resizeChatEmbed()
+
         window.addEventListener("resize", resizeChatEmbed);
         return () => {
             window.removeEventListener("resize", resizeChatEmbed);
