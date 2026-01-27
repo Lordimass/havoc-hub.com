@@ -38,13 +38,14 @@ export default function Home() {
 export function StreamSoonText() {
     return (<>
         <p>
-            We are a group of friends who host a yearly 24hr Charity Livestream to raise money for the
-            areas of the world and groups of people who need it the most. We hope to make a difference in
-            the world, even if only a little bit.
+            We are a group of friends who host
+            an <b><a href="https://www.instagram.com/p/DKp9arKNekI/">award-winning</a></b> yearly 24hr Charity
+            Livestream to raise money for the areas of the world and groups of people who need it the most. We hope to
+            make a difference in the world, even if only a little bit.
         </p><br/>
         <p>
             The 7th Livestream will be on <b>21st February</b>! This year we're all getting together to raise money
-            for <a href="https://mermaidsuk.org.uk/">Mermaids</a> (Not the fish people). Mermaids has been supporting
+            for <b><a href="https://mermaidsuk.org.uk/">Mermaids</a></b> (Not the fish people). Mermaids has been supporting
             trans, non-binary and gender-diverse children, young people and their families since 1995, and with so many
             people in our community being some variation of these things, we want to do our part to help Mermaids out!
         </p><br/>
@@ -52,23 +53,39 @@ export function StreamSoonText() {
             While you wait, check out the archive of previous events or go to the members page to see everyone who's
             taking part.
         </p>
+        <hr/>
+        <p style={{fontSize: "1em", textAlign: "left"}}>
+            In 2025, we received the <i>Love York Fundraiser of the Year Award</i> for our events :D <br/><br/>
+            You can find a recording of the awards ceremony on
+            YouTube <b><a href="https://www.youtube.com/watch?v=mwy6rFXycB0">here</a></b>, and some photos I took from
+            the evening <b><a href="https://www.instagram.com/p/DKp9arKNekI">here.</a></b><br/>
+            Thank you so so much to everyone who helped us achieve this!
+        </p>
     </>)
 }
 
 export function MidYearText() {
     return (<>
         <p>
-            We are a group of friends who host a yearly 24hr Charity Livestream to raise money for the
-            areas of the world and groups of people who need it the most. We hope to make a difference in
-            the world, even if only a little bit.
+            We are a group of friends who host
+            an <b><a href="https://www.instagram.com/p/DKp9arKNekI/">award-winning</a></b> yearly 24hr Charity
+            Livestream to raise money for the areas of the world and groups of people who need it the most. We hope to
+            make a difference in the world, even if only a little bit.
         </p><br/>
         <p>
-            The last stream was on 1st February 2025, and the next one isn't until February 2026, so it's quiet
-            here for now…
+            The last stream was on 21st February 2026, so it's quiet here for now…
         </p><br/>
         <p>
-            While you wait for next year's stream, check out the archive of previous events or go to the
+            While you wait, check out the archive of previous events or go to the
             members page to see the team's social media pages.
+        </p>
+        <hr/>
+        <p style={{fontSize: "1em", textAlign: "left"}}>
+            In 2025, we received the <i>Love York Fundraiser of the Year Award</i> for our events :D <br/><br/>
+            You can find a recording of the awards ceremony on
+            YouTube <b><a href="https://www.youtube.com/watch?v=mwy6rFXycB0">here</a></b>, and some photos I took from
+            the evening <b><a href="https://www.instagram.com/p/DKp9arKNekI">here.</a></b><br/>
+            Thank you so so much to everyone who helped us achieve this!
         </p>
     </>)
 }

@@ -32,6 +32,10 @@
 
 /****************  STYLE TAGS  ****************/
 
+html {
+    scroll-behavior: smooth;
+}
+
 svg { /* Unspecified SVG Fonts will default to this */
     font-family: "Omnes Pro Bold", sans-serif;
 }
@@ -77,10 +81,6 @@ a[href]:hover {
     text-decoration: underline;
 }
 
-body {
-    margin: 0;
-}
-
 text {
     font-family: "Omnes Medium", sans-serif;
     font-weight: 1000;
@@ -95,9 +95,6 @@ text {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-}
-
-#root {
     background-color: var(--darkPrimary);
     background-image: url("https://fljzgwpfjpgvhixuacrm.supabase.co/storage/v1/object/public/images/collage.jpg");
 }
